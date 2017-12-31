@@ -79,7 +79,7 @@ namespace PowerBIEmbedded_AppOwnsData.Controllers
 
                     if (report == null)
                     {
-                        result.ErrorMessage = "Group has no report.";
+                        result.ErrorMessage = "Group has no reports.";
                         return View(result);
                     }
 
