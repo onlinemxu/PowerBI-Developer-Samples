@@ -23,6 +23,10 @@ namespace PowerBIEmbedded_AppOwnsData.Controllers
         private static readonly string GroupId = ConfigurationManager.AppSettings["groupId"];
         private static readonly string ReportId = ConfigurationManager.AppSettings["reportId"];
 
+        /// <summary>
+        /// Index view
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Index()
         {
             return View();
