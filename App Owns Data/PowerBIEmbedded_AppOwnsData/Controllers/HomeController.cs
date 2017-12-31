@@ -25,7 +25,6 @@ namespace PowerBIEmbedded_AppOwnsData.Controllers
 
         public ActionResult Index()
         {
-            var demo = 1;
             return View();
         }
 
